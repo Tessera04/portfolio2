@@ -2,7 +2,7 @@
     --main-color: #EADEA9;
     --dark-color-a: #7F852A;
     --dark-color-b: #B3B872;
-    --blue-color-main: #6F91ED;
+    --blue-color-main: #557ae0;
     --blue-color-b: #7297B8;
 }
 
@@ -15,6 +15,8 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+
+/*NAV BAR*/
 .navbar{
     background-color: var(--blue-color-main);
     display: flex;
@@ -23,9 +25,10 @@ body{
     padding: 1rem;
 }
 
-h1{
+.nav-h1{
     font-size: 32px;
     color: var(--main-color);
+    font-weight: 400;
 }
 
 .lista{
@@ -52,3 +55,32 @@ h1{
     color: var(--dark-color-b);
 }
 
+/*SECTION INICIO*/
+
+.inicio{
+    background-image: url(profile-pic.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imagen{
+    width: 45rem;
+    padding: 5rem;
+    padding-right: 5rem;
+    border-radius: 100px;
+}
+
+.texto-inicio{
+    font-size: 56px;
+    color: var(--main-color);
+}
+
+.texto-inicio h1{
+    color: var(--dark-color-b);
+    transition: color 1s;
+}
+
+.texto-inicio h1:hover{
+    color: var(--dark-color-a);
+}
