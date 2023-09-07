@@ -104,6 +104,11 @@ body{
     font-size: 48px;
 }
 
+.ancho-bio p{
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
 .p-t{
     padding-top: 3rem;
 }
@@ -119,10 +124,40 @@ body{
 .lista li img{
     width: 200px;
     height: 200px;
+    transition: height 0.3s;
+    transition: width 0.3s;
+}
+
+.lista li img:hover{
+    width: 250px;
+    height: 250px;
 }
 
 /*SECTION CONTACTO*/
 
 .contacto{
     background-color: #fff;
+}
+
+label{
+    font-size: 32px;
+}
+
+.campo{
+    width: 20rem;
+    height: 2rem;
+}
+
+#mensaje{
+    width: 40rem;
+    height: 10rem;
+}
+
+.button{
+    width: 20rem;
+    height: 2rem;
+    background-color: var(--blue-color-b);
+    color: var(--main-color);
+    border-radius: 1rem;
+    border-style: none;
 }

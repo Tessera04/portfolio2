@@ -64,6 +64,29 @@
     <section id="contacto" class="info-cont contacto">
         <div class="ancho-bio">
             <h1 class="p-t">Contacto</h1>
+            <form>
+                <div class="p-t mensaje">
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre" required class="campo">
+                </div>
+
+                <div class="p-t mensaje">
+                    <label for="email">Correo Electrónico:</label>
+                    <br>
+                    <input type="email" id="email" name="email" required class="campo">
+                </div>
+        
+                <div class="p-t mensaje">
+                    <label for="mensaje">Mensaje:</label>
+                    <br>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+        
+                <div class="p-t">
+                    <input type="submit" value="Enviar" class="button">
+                </div>
+            </form>
         </div>
     </section>
 </body>
