@@ -1,4 +1,54 @@
 :root{
     --main-color: #EADEA9;
-    --main-color-dark: #6F91ED;
+    --dark-color-a: #7F852A;
+    --dark-color-b: #B3B872;
+    --blue-color-main: #6F91ED;
+    --blue-color-b: #7297B8;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar{
+    background-color: var(--blue-color-main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 32px;
+    color: var(--main-color);
+}
+
+.lista{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista li{
+    display: inline;
+    margin-right: 1rem;
+
+}
+
+.lista li a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 200;
+    color: var(--main-color);
+    transition: color 0.3s;
+}
+
+.lista li a:hover{
+    color: var(--dark-color-b);
+}
+
