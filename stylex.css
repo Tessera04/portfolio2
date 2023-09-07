@@ -58,7 +58,8 @@ body{
 /*SECTION INICIO*/
 
 .inicio{
-    background-image: url(profile-pic.jpeg);
+    height: 900px;
+    background-image: url(img/profile-pic.jpeg);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -83,4 +84,45 @@ body{
 
 .texto-inicio h1:hover{
     color: var(--dark-color-a);
+}
+
+/*SECTION INFO*/
+
+.info-cont{
+    height: 900px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ancho-bio{
+    width: 75%;
+}
+
+.ancho-bio h1{
+    font-size: 48px;
+}
+
+.p-t{
+    padding-top: 3rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.lista li img{
+    width: 200px;
+    height: 200px;
+}
+
+/*SECTION CONTACTO*/
+
+.contacto{
+    background-color: #fff;
 }
